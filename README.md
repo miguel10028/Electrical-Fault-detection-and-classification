@@ -18,7 +18,27 @@ So we have two files(datasets) here namely classData.csv and detect_dataset_csv:
 detect_dataset_csv  is for train the model to detect any type of Fault and
 classData.csv  is for Classification of Shunt Fault
 
+###detect_dataset_csv 
+![Capture](https://github.com/keonij1/Electrical-Fault-detection-and-classification/assets/10182525/b2a9f5f0-0235-481e-b469-c88174812c7d)
 
+###classData.csv
+![Capture1](https://github.com/keonij1/Electrical-Fault-detection-and-classification/assets/10182525/bc351db9-96f1-4985-b066-aed3429b8d41)
+
+This file classData.csv contains the dataset to classify the types of fault.
+
+A,B,C are the 3-phases of the electrical system. Most of the Electricity transmission happens via 3-phase system,
+and hence Ia represents the current(I) in phase A, Va represents the Voltage(V) in phase A and so on for Phase A and B.
+
+Inputs - [Ia,Ib,Ic,Va,Vb,Vc]
+Outputs - [G C B A]
+
+Examples :
+[0 0 0 0] - No Fault
+[1 0 0 1] - LG fault (Between Phase A and Gnd)
+[0 0 1 1] - LL fault (Between Phase A and Phase B)
+[1 0 1 1] - LLG Fault (Between Phases A,B and ground)
+[0 1 1 1] - LLL Fault(Between all three phases)
+[1 1 1 1] - LLLG fault( Three phase symmetrical fault)
 
 ## Models
 
