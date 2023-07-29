@@ -20,13 +20,13 @@ So we have two files(datasets) here namely classData.csv and detect_dataset_csv:
 
 
 
-###detect_dataset_csv 
+### detect_dataset_csv 
 
 ![Capture](https://github.com/keonij1/Electrical-Fault-detection-and-classification/assets/10182525/b2a9f5f0-0235-481e-b469-c88174812c7d)
 
 
 
-###classData.csv
+### classData.csv
 
 ![Capture1](https://github.com/keonij1/Electrical-Fault-detection-and-classification/assets/10182525/bc351db9-96f1-4985-b066-aed3429b8d41)
 
