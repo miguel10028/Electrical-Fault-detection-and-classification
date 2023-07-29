@@ -35,16 +35,16 @@ This file classData.csv contains the dataset to classify the types of fault.
 A,B,C are the 3-phases of the electrical system. Most of the Electricity transmission happens via 3-phase system,
 and hence Ia represents the current(I) in phase A, Va represents the Voltage(V) in phase A and so on for Phase A and B.
 
-Inputs - [Ia,Ib,Ic,Va,Vb,Vc]
-Outputs - [G C B A]
+- Inputs - [Ia,Ib,Ic,Va,Vb,Vc]
+- Outputs - [G C B A]
 
 Examples :
-[0 0 0 0] - No Fault
-[1 0 0 1] - LG fault (Between Phase A and Gnd)
-[0 0 1 1] - LL fault (Between Phase A and Phase B)
-[1 0 1 1] - LLG Fault (Between Phases A,B and ground)
-[0 1 1 1] - LLL Fault(Between all three phases)
-[1 1 1 1] - LLLG fault( Three phase symmetrical fault)
+- [0 0 0 0] - No Fault
+- [1 0 0 1] - LG fault (Between Phase A and Gnd)
+- [0 0 1 1] - LL fault (Between Phase A and Phase B)
+- [1 0 1 1] - LLG Fault (Between Phases A,B and ground)
+- [0 1 1 1] - LLL Fault(Between all three phases)
+- [1 1 1 1] - LLLG fault( Three phase symmetrical fault)
 
 ## Models
 
